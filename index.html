@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Criptografia simples</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="container">
+      <h1>CRIPTOGRAFIA SIMPLES</h1>
+      <label for="input">Digite a mensagem:</label>
+      <input type="text" id="input" placeholder="Digite a mensagem a ser criptografada" onkeyup="pressEnterInput(event)">
+      <button onclick="criptografar()">Criptografar</button>
+      <div id="output">
+        <label for="resultado">Resultado:</label>
+        <p id="resultado"></p>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
